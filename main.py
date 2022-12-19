@@ -1,13 +1,15 @@
 def kare(k):
     print("Karenin alanı = {}".format(k * k))
 
-
 def dikdortgen(k, u):
     print("Dikdörtgenin alanı = {}".format(k * u))
     
 def ucgenin_alanı(taban, h):
     print(f"Üçgenin alanı {taban * h / 2}")
 
+def eskenardortgen(a_k, y_k):
+    print("Eşkenar dörtgenin alanı = {}".format((a_k * y_k) / 2))
+    
 if __name__ == '__main__':
     print("""
     1 - Kare
@@ -30,7 +32,11 @@ if __name__ == '__main__':
         t = int(input("Taban Girin : "))
         h = int(input("Yükseklik girin : "))
         ucgenin_alanı(t, h)
-                
+         
+    elif secim == 4:
+        a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
+        y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
+        eskenardortgen(a, y)
 
     else:
         print("Sadece belirtilen sayılardan birini giriniz.")
