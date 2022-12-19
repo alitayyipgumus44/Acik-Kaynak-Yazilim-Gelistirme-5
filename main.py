@@ -4,8 +4,8 @@ def kare(k):
 def dikdortgen(k, u):
     print("Dikdörtgenin alanı = {}".format(k * u))
     
-def ucgenin_alanı(taban, h):
-    print(f"Üçgenin alanı {taban * h / 2}")
+def ucgenin_alanı(taban, yükseklik):
+    print(f"Üçgenin alanı {taban * yükseklik / 2}")
 
 def eskenardortgen(a_k, y_k):
     print("Eşkenar dörtgenin alanı = {}".format((a_k * y_k) / 2))
