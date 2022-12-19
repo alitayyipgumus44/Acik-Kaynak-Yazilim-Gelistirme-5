@@ -5,8 +5,8 @@ def kare(k):
 def dikdortgen(k, u):
     print("Dikdörtgenin alanı = {}".format(k * u))
     
-def ucgenin_alanı(taban, h):
-    print(f"Üçgenin alanı {taban * h / 2}")
+def ucgenin_alanı(taban, yükseklik):
+    print(f"Üçgenin alanı {taban * yükseklik / 2}")
 
 if __name__ == '__main__':
     print("""
