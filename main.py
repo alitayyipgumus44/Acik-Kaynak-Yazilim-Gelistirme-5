@@ -39,12 +39,12 @@ if __name__ == '__main__':
         r = float(input("Yarı çap giriniz: "))
         daire(pi,r)
 
-    elif secim == 3:
+    elif secim == 4:
         t = int(input("Taban Girin : "))
         h = int(input("Yükseklik girin : "))
         ucgenin_alanı(t, h)
          
-    elif secim == 4:
+    elif secim == 5:
         a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
         y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
         eskenardortgen(a, y)
